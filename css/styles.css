@@ -293,20 +293,24 @@ img{
     border-radius: 50px;
 }
 
+.team .team-socials-link:hover,
+.team .team-socials-link:focus{
+    background-color: #404BBF;
+}
+
 .team-socials-icon{
     fill: #FFFFFF;
 }
 
 /* #endregion */
 
-
-
-.section-portfolio{
+/* #region  */
+.section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.portfolio-header{
+.portfolio-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -318,26 +322,32 @@ img{
     margin-bottom: 72px;
 }
 
-.portfolio-list{
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-.portfolio-item{
+.portfolio-item {
     background-color: #FFFFFF;
 
     width: calc((100% - 48px) / 3);
 }
 
-.app-about{
+
+.portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+
+.app-about {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.portfolio-item-header{
+.portfolio-item-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -347,13 +357,16 @@ img{
     margin-bottom: 8px;
 }
 
-.portfolio-item-descr{
+.portfolio-item-descr {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* #endregion */
+
+
 
 /* #region Footer */
 .page-bottom {
@@ -408,7 +421,11 @@ img{
     flex-wrap: wrap;
     max-width: 208px;
     height: 80px;
+}
 
+.page-bottom .team-socials-link:hover,
+.page-bottom .team-socials-link:focus{
+background-color: #31D0AA;
 }
 
 .bottom-socials-title{
