@@ -397,8 +397,7 @@ img {
     transform: translateY(100%);
 
 
-    display: flex;
-    align-items: center;
+
     padding: 40px 32px;
     font-weight: 400;
     font-size: 16px;
