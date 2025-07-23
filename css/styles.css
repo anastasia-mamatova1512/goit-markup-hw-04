@@ -142,8 +142,9 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-item:hover,
-.address-item:focus{
+
+.address-link:hover,
+.address-link:focus{
     color: #404bbf;
 }
 .main-page{
@@ -451,7 +452,6 @@ img {
 .bottom-info{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .logo-left-bottom {
@@ -489,21 +489,18 @@ img {
     max-width: 264px;
 }
 
-.bottom-socials{
+/* .bottom-socials{
     display: flex;
     flex-wrap: wrap;
     max-width: 208px;
     height: 80px;
-}
+} */
 
 .page-bottom .team-socials-link:hover,
 .page-bottom .team-socials-link:focus{
 background-color: #31D0AA;
 }
 
-/* .footer-socials-icon{
-    fill: #F4F4FD;
-} */
 
 .bottom-socials-title{
     font-weight: 500;
