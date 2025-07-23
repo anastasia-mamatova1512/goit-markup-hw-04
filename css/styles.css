@@ -93,8 +93,8 @@ img {
     display: block;
 }
 
-.navigation-item:hover,
-.navigation-item:focus{
+.navigation-link:hover,
+.navigation-link:focus{
     color:#404bbf;
 }
 
@@ -489,12 +489,7 @@ img {
     max-width: 264px;
 }
 
-/* .bottom-socials{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 208px;
-    height: 80px;
-} */
+
 
 .page-bottom .team-socials-link:hover,
 .page-bottom .team-socials-link:focus{
